@@ -1,0 +1,107 @@
+html,
+body {
+  height: 100%;
+background-color: hwb(210deg 97% 2%);
+}
+
+body {
+    font-family: 'Raleway';
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  font-size: 13px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+p{
+    text-align: center;
+}
+
+
+@media screen and(max-width:768px){
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 75px;
+        margin: auto;
+    }
+}
+
+
+.btn-vert {
+    color: #fff;
+    background-color: #32b44a;
+    border-color: #32b44a;
+    margin-bottom: 10px;
+    border-color: #32b44a;
+}
+
+.btn-primary:active{
+    color: #fff;
+    background-color: #32b44a;
+    border-color: #32b44a;
+    margin-bottom: 10px;
+    border-color: #32b44a;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+ 
+  color: #fff;
+}
+.btn-link{
+  text-decoration: none;
+}
+
+.btn-vert:hover{
+    color: #fff;
+    background-color: #32b44a;
+    border-color: #32b44a;
+    margin-bottom: 10px;
+    border-color: #32b44a;
+}
+
+.btn-rouge{
+    color:#fff ;
+    background-color: #ed2036;
+    border-color:#ed2036;
+}
+
+
+.btn-rouge:hover{
+    color:#fff ;
+    background-color: #ed2036;
+    border-color:#ed2036;
+}
+
+
+footer{
+    margin-top: 40px !important;
+}
